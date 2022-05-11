@@ -131,7 +131,8 @@ public class ChannelUtils {
     }
 
     private static boolean isDefaultChannelCover(BaseChannel channel) {
-        return TextUtils.isEmpty(channel.getCoverUrl()) || channel.getCoverUrl().contains(StringSet.DEFAULT_CHANNEL_COVER_URL);
+        return true;
+//        return TextUtils.isEmpty(channel.getCoverUrl()) || channel.getCoverUrl().contains(StringSet.DEFAULT_CHANNEL_COVER_URL);
     }
 
     public static String makeTypingText(Context context, List<? extends User> typingUsers) {
