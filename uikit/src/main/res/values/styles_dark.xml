@@ -54,7 +54,7 @@
     </style>
 
     <style name="Widget.SendBird.AppBar.Dark">
-        <item name="android:background">@color/background_500</item>
+        <item name="android:background">@color/linkme</item>
         <item name="sb_appbar_title_appearance">@style/SendbirdH1OnDark01</item>
         <item name="sb_appbar_description_appearance">@style/SendbirdCaption2OnDark03</item>
         <item name="sb_appbar_button_tint">@color/primary_200</item>
@@ -72,11 +72,11 @@
 
     <style name="Widget.SendBird.RecyclerView.Dark">
         <item name="sb_pager_recycler_view_divide_line_color">@color/ondark_04</item>
-        <item name="android:background">@color/background_600</item>
+        <item name="android:background">@color/linkme</item>
     </style>
 
     <style name="Widget.SendBird.ChannelPreview.Dark">
-        <item name="android:background">@drawable/selector_rectangle_dark600</item>
+        <item name="android:background">@color/linkme</item>
         <item name="sb_channel_preview_title_appearance">@style/SendbirdSubtitle1OnDark01</item>
         <item name="sb_channel_preview_member_count_appearance">@style/SendbirdCaption1OnDark02</item>
         <item name="sb_channel_preview_updated_at_appearance">@style/SendbirdCaption2OnDark02</item>
@@ -98,7 +98,7 @@
 
     <style name="Widget.SendBird.RecyclerView.Message.Dark">
         <item name="sb_pager_recycler_view_use_divide_line">false</item>
-        <item name="sb_message_recyclerview_background">@color/background_600</item>
+        <item name="sb_message_recyclerview_background">@color/linkme</item>
         <item name="sb_message_recyclerview_tooltip_background">@drawable/selector_tooltip_background_dark</item>
         <item name="sb_message_recyclerview_tooltip_textappearance">@style/SendbirdCaption1Primary200</item>
         <item name="sb_message_typing_indicator_textappearance">@style/SendbirdCaption1OnDark02</item>

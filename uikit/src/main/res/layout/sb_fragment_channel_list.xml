@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <com.sendbird.uikit.widgets.AppBarView
             android:id="@+id/abvChannelList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -27,8 +27,8 @@
                 android:id="@+id/statusFrame"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:sb_status_frame_error_text="@string/sb_text_error_get_channel_list"
-                app:sb_status_frame_empty_text="@string/sb_text_channel_list_empty"/>
+                app:sb_status_frame_empty_text="@string/sb_text_channel_list_empty"
+                app:sb_status_frame_error_text="@string/sb_text_error_get_channel_list" />
 
         </FrameLayout>
 
